@@ -1,0 +1,31 @@
+{
+  "official": [
+    {
+      "repo": "hujowe-serwery/local-domain.online",
+      "description": "",
+      "domain": "local-domain.online"
+    }
+  ],
+  "verified": [
+    {
+      "repo": "hujowe-serwery/Register-local-domain",
+      "description": "register/claim subdomain.",
+      "domain": "register-site.local-domain.online",
+      "url": "https://register-site.local-domain.online"
+    },
+    {
+      "repo": "hujowe-serwery/VMT-Studios-Pages",
+      "description": "own by local-domain.online",
+      "domain": "vmt-studios.local-domain.online",
+      "url": "http://vmt-studios.local-domain.online"
+    }
+  ],
+  "sites": [
+    {
+      "repo": "template/public-site",
+      "description": "template for our staff.",
+      "domain": "template.local-domain.online",
+      "url": "http://template.local-domain.online"
+    }
+  ]
+}
