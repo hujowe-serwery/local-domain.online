@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+.domain-section {
+    margin-bottom: 40px;
+}
+
+.domain-section h2 {
+    color: #222;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
+
+.domain-list {
+    list-style: none;
+}
+
+.domain-list li {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background: #f9f9f9;
+    transition: all 0.2s ease;
+}
+
+.domain-list li:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.official-list li {
+    border-left: 4px solid #4CAF50;
+}
+
+.verified-list li {
+    border-left: 4px solid #2196F3;
+}
+
+.sites-list li {
+    border-left: 4px solid #FF9800;
+}
+
+.domain-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.domain-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.verified-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.verified-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.official-list .verified-icon svg {
+    fill: #4CAF50;
+}
+
+.verified-list .verified-icon svg {
+    fill: #2196F3;
+}
+
+.domain-name {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.repo-link {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background: rgba(3, 102, 214, 0.1);
+    transition: all 0.2s ease;
+}
+
+.repo-link:hover {
+    background: rgba(3, 102, 214, 0.2);
+    text-decoration: underline;
+}
+
+.domain-description {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.loading {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-style: italic;
+}
+
+.site-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.site-link {
+    text-decoration: none;
+    color: #0366d6;
+    background: rgba(3, 102, 214, 0.1);
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.site-link:hover {
+    background: rgba(3, 102, 214, 0.2);
+    text-decoration: underline;
+}
+
+.section-title {
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    color: #333;
+}
+
+.template-message {
+    display: none;
+}
+
+.modal,
+.modal.active,
+.modal-content,
+.close-modal,
+.action-buttons,
+.takedown-btn,
+.about-button,
+.takedown-form,
+.form-group,
+.submit-btn,
+.email-info {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .domain-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .repo-link {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+}

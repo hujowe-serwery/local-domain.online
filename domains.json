@@ -1,0 +1,23 @@
+{
+  "official": [
+    {
+      "repo": "hujowe-serwery/hujowe-serwery.online",
+      "description": "Domain configuration repository",
+      "domain": "hujowe-serwery.online"
+    }
+  ],
+  "verified": [
+    {
+      "repo": "template/template.local-domain.online",
+      "description": "Template for verified sites",
+      "domain": "template.local-domain.online"
+    }
+  ],
+  "sites": [
+    {
+      "repo": "template/template.hujowe-serwery.online",
+      "description": "Template for public sites",
+      "domain": "template.hujowe-serwery.online"
+    }
+  ]
+}
